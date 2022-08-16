@@ -1,2 +1,2 @@
 # goofy-ahh-website
-Websiy
+Website i made because I wanted to.
