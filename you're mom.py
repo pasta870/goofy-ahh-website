@@ -11,15 +11,17 @@ import re
 #os.system("pip install pysimplegui")
 #os.system("pip install pytube")
 
-def main():
-
-    sg.theme('DarkAmber')
-
     cgitb.enable()
 
     print "Content-type: text/html"
 
     inputs = cgi.FieldStorage()
+
+def main():
+
+    sg.theme('DarkAmber')
+
+    
 
     layout = [ [sg.Text("Choose MP4 or MP3")], [sg.Button("Video"), sg.Button("Audio")] ]
 
