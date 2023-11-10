@@ -1,4 +1,9 @@
 from pytube import YouTube
-yt = YouTube("https://www.youtube.com/watch?v=n06H7OcPd-g")
-yt = yt.get('mp4', '720p')
-yt.download('/path/to/download/directory')
+Url = float(input(""))
+video = YouTube (Url)
+out_path = video.streams.filter (only_audio=True) . 1
+new_name = os.path. splitext (out_path)
+os.rename (out_path, new_name [0]+' . mp3')
+print (' Done.. . )
+print(' Title: ', video.title)
+print(' Downloading. . . . *)
